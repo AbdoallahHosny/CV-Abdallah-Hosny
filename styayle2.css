@@ -141,6 +141,34 @@ h6{
     transform: scale(1.1);
 
 }
+/* ----------------------------------------
+-----------scrollbar---------------------
+--------------------------------------------*/
+
+::-webkit-scrollbar {
+    background-color: #323233;
+    width: 8px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #585858;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #585858;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa93;
+
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #AAAAAA;
+
+}
 
 @media(max-width:1058px){
 
