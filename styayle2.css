@@ -297,8 +297,14 @@ width: 100%;
 }
 }
 
-
-
+@media (max-height: 999px){
+    .home {
+        height: 100%;
+    }
+    .cv {
+        height: 100%;
+    }
+}
 
 
 
